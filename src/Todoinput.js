@@ -14,7 +14,7 @@ export default function Todoinput(props) {
       />
       <button className='add-btn' onClick={() => {     //Button that is being use to add items into the list. 
         props.addlist(inputText)   // you are calling inputtext that you defined above the return .
-        setInputText("")
+        setInputText("")   //you clearing the input box once user enters the texts and click on '+' icon.
       }}>+</button>
     
     </div>
